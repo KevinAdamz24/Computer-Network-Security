@@ -1,162 +1,49 @@
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-multiverse-welcome_small.png "UFONet Welcome")
+<h1 align="center">
+  <br>
+  <a href="https://github.com/ultrasecurity/Storm-Breaker"><img src="http://dl.sabzlearn.ir/demo/storm/1demo.png" alt="Darkside"></a>
 
-----------
+</h1>
 
- + Website:   https://ufonet.03c8.net
+<h4 align="center">A tool with attractive capabilities</h4>
 
-----------
+<p align="center">
+  <a href="http://python.org">
+    <img src="https://img.shields.io/badge/python-v3-blue">
+  </a>
+  <a href="https://php.net">
+    <img src="https://img.shields.io/badge/php-7.4.4-green"
+         alt="php">
+  </a>
 
-#### Description:
+  <a href="https://www.microsoft.com/de-de/">
+    <img src="https://img.shields.io/badge/platform-Linux-red">
+  </a>
+</p>
 
-  UFONet - is a free software, P2P and cryptographic -disruptive toolkit- that allows to perform DoS and DDoS attacks; 
-on the Layer 7 (APP/HTTP) through the exploitation of Open Redirect vectors on third-party websites to act as a botnet 
-and on the Layer3 (Network) abusing the protocol.
+![demo](http://dl.sabzlearn.ir/demo/storm/cu-demo.PNG)
 
-  It also works as an encrypted DarkNET to publish and receive content by creating a global client/server network based 
-on a direct-connect P2P architecture.
+### Features:
 
-  See these links for more info:
+- Get Device Information Without Any Permissions
+- Access Location [SMARTPHONES]
+- Os Password Grabber [WIN-10]
+- Access Webcam
+- Access Microphone
 
-   - FAQ:
-     https://ufonet.03c8.net/FAQ.html
+![save demo](http://dl.sabzlearn.ir/demo/storm/loc-demo.PNG)
 
-   - CWE-601:Open Redirect: 
-     https://cwe.mitre.org/data/definitions/601.html
 
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-schema.png "UFONet Schema")
+### Operating Systems Tested
 
-   - LOIC: 
-     https://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon
+- Kali Linux 2020
 
-   - LORIS: 
-     https://en.wikipedia.org/wiki/Slowloris_(software)
+### Installation On Kali Linux
 
-   - UFOSYN: 
-     https://en.wikipedia.org/wiki/SYN_flood
 
-   - FRAGGLE: 
-     https://en.wikipedia.org/wiki/Fraggle_attack
-
-   - UFORST: 
-     https://ddos-guard.net/en/terminology/attack_type/rst-or-fin-flood
-
-   - SPRAY: 
-     https://en.wikipedia.org/wiki/DRDOS
-
-   - SMURF: 
-     https://en.wikipedia.org/wiki/Smurf_attack
-
-   - XMAS: 
-     https://en.wikipedia.org/wiki/Christmas_tree_packet
-
-   - DROPER: 
-     https://en.wikipedia.org/wiki/IP_fragmentation_attack
-
-   - SNIPER: 
-     https://www.imperva.com/learn/application-security/snmp-reflection/
-
-   - TACHYON: 
-     https://www.us-cert.gov/ncas/alerts/TA13-088A
-
-   - PINGER: 
-     https://www.cloudflare.com/learning/ddos/ping-icmp-flood-ddos-attack/
-
-   - MONLIST: 
-     https://www.us-cert.gov/ncas/alerts/TA14-013A
-
-   - UFOACK: 
-     https://www.f5.com/services/resources/glossary/push-and-ack-flood
-
-   - OVERLAP: 
-     https://cyberhoot.com/cybrary/fragment-overlap-attack/
-
-   - UFOUDP: 
-     https://en.wikipedia.org/wiki/UDP_flood_attack
-
-   - NUKE: 
-     https://dl.packetstormsecurity.net/papers/general/tcp-starvation.pdf
-
-----------
-
-#### Installing:
-
-  UFONet runs on many platforms. It requires Python (>=3) and the following libraries:
-
-       python3-pycurl - Python bindings to libcurl (Python 3)
-       python3-geoip - Python3 bindings for the GeoIP IP-to-country resolver library
-       libgeoip-dev - Development files for the GeoIP library
-       libgeoip1 - non-DNS IP-to-country resolver library
-       python3-whois - Python module for retrieving WHOIS information - Python 3
-       python3-crypto - cryptographic algorithms and protocols for Python 3
-       python3-requests - elegant and simple HTTP library for Python3, built for human beings
-       python3-scapy - Packet crafting/sniffing/manipulation/visualization security tool
-
-  You can automatically get all required libraries using (as root):
-
-       python3 setup.py install
-
-  For manual installation, on Debian-based systems (ex: Ubuntu), run:
-
-       sudo apt-get install python3-pycurl python3-geoip python3-whois python3-crypto python3-requests python3-scapy libgeoip1 libgeoip-dev
-
-  On other systems such as: Kali, Ubuntu, ArchLinux, ParrotSec, Fedora, etc... also run:
-
-       pip3 install GeoIP
-       pip3 install python-geoip
-       pip3 install pygeoip
-       pip3 install requests
-       pip3 install pycrypto
-       pip3 install pycurl
-       pip3 install whois
-       pip3 install scapy-python3
-
-####  Source libs:
-
-   * Python: https://www.python.org/downloads/
-   * PyCurl: http://pycurl.sourceforge.net/
-   * GeoIP: https://pypi.python.org/pypi/GeoIP/
-   * Python-geoip: https://pypi.org/project/python-geoip/
-   * Pygeoip: https://pypi.org/project/pygeoip/
-   * Whois: https://pypi.python.org/pypi/whois
-   * PyCrypto: https://pypi.python.org/pypi/pycrypto
-   * PyRequests: https://pypi.python.org/pypi/requests
-   * Scapy-Python3: https://pypi.org/project/scapy-python3/
-   * Leaflet: http://leafletjs.com/ (provided)
-
-----------
-
-####  License:
-
-  UFONet is released under the GPLv3. You can find the full license text
-in the [LICENSE](./docs/LICENSE) file.
-
-----------
-
-####  Screenshots (current version!):
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-shell-1.png "UFONet Shell Version")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-shell-2.png "UFONet Shell Board")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-shell-3.png "UFONet GUI Shell")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-main_small.png "UFONet GUI Main Panel")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-help_small.png "UFONet GUI Help")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-botnet.png "UFONet GUI Botnet")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-stats.png "UFONet GUI General Stats")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-multiverse-ranking_small.png "UFONet GUI Ranking")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-attack.png "UFONet GUI Attack")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-board_small.png "UFONet GUI Board")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-kraken-wargames_small.png "UFONet GUI Wargames")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-gui3_small.png "UFONet GeoMap /deploying/")
-
-  ![UFONet](https://ufonet.03c8.net/ufonet/ufonet-gui4_small.png "UFONet GeoMap /attacking/")
-
+```bash
+$ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ cd Storm-Breaker
+$ sudo bash linux-installer.sh
+$ python3 -m pip install -r requirments.txt
+$ sudo python3 Storm-Breaker.py
+```
